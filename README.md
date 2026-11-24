@@ -1,4 +1,4 @@
-# shapesoda-com
+# Shapesoda
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-shapesoda-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://shapesoda.com/
+Shapesoda provides an online service that converts raster images such as PNG, JPG, or WebP into clean vector graphics like SVG, PDF, EPS, or DXF. Users can download the results, edit them in the browser, or integrate the conversion capability via the Shapesoda API. The platform offers a free trial, tiered pricing plans, and documentation for developers to automate image vectorization in seconds.
+
+**Areas:** Company · ImageConversion · API · VectorGraphics · SaaS
+
+## Shapesoda on APIs.io
+
+Everything profiled for Shapesoda is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shapesoda-com/](https://apis.io/providers/shapesoda-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Shapesoda Account API](https://apis.io/apis/shapesoda-com/shapesoda-com-account-api/) — Credits and usage of the account that owns the key.
+- [Shapesoda MCP API](https://apis.io/apis/shapesoda-com/shapesoda-com-mcp-api/) — Model Context Protocol server for AI agents and the short-lived upload links it hands out.
+- [Shapesoda Plans API](https://apis.io/apis/shapesoda-com/shapesoda-com-plans-api/) — Public price list.
+- [Shapesoda Results API](https://apis.io/apis/shapesoda-com/shapesoda-com-results-api/) — Stored results (24 hours, up to 30 days with `retention_days`): download in any format, upgrade a preview, delete.
+- [Shapesoda Vectorize API](https://apis.io/apis/shapesoda-com/shapesoda-com-vectorize-api/) — Raster to vector conversion.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Shapesoda Agentic Access](https://apis.io/agentic-access/shapesoda-com/shapesoda-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AccountResponse](https://apis.io/schemas/shapesoda-com/shapesoda-com-account-response/)
+- [Colors](https://apis.io/schemas/shapesoda-com/shapesoda-com-colors/)
+- [FormatList](https://apis.io/schemas/shapesoda-com/shapesoda-com-format-list/)
+- [JsonRpcRequest](https://apis.io/schemas/shapesoda-com/shapesoda-com-json-rpc-request/)
+- [Plans](https://apis.io/schemas/shapesoda-com/shapesoda-com-plans/)
+- [VectorizeJson](https://apis.io/schemas/shapesoda-com/shapesoda-com-vectorize-json/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Shapesoda Com Context](https://apis.io/jsonld/shapesoda-com/shapesoda-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Shapesoda API Rules](https://apis.io/rules/shapesoda-com/shapesoda-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shapesoda Authentication](https://apis.io/security/shapesoda-com/shapesoda-com-authentication/)
+- [Shapesoda Domain Security](https://apis.io/security/shapesoda-com/shapesoda-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shapesoda Plans Pricing](https://apis.io/plans/shapesoda-com/shapesoda-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shapesoda.com/)
+- [Documentation](https://shapesoda.com/guides)
+- [API reference](https://shapesoda.com/api)
+- [Pricing](https://shapesoda.com/pricing)
+- [Terms of service](https://shapesoda.com/terms)
+- [Privacy policy](https://shapesoda.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.0** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 48.5 |
+
+**Agent readiness 56.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shapesoda-com/](https://apis.io/providers/shapesoda-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Shapesoda: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shapesoda-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
